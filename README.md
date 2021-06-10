@@ -21,13 +21,14 @@ direction if all three are known in advance.
 The names one uses must match route names and station names exactly 
 as described in the respective attributes objects. Any spaces in the name
 must be replaced with underscores in order to keep the number of command
-line arguments consistent. See the help menu for more information.
+line arguments consistent. 
+The direction argument is required in command line mode, but ignored if the stop is a terminus
+See the help menu for more information.
 
 Run "python3 NextTrain.py Red_Line Park_Street 0" 
 
 I have also implemented an automation test that (eventually) checks all of the
-possible route/stop/direction combinations to ensure that no accepted input  
-generates an unforeseen error.
+possible route/stop/direction combinations to ensure that no accepted input generates an unforeseen error.
 
 Run "python3 NextTrain.py test" to run the test
 
