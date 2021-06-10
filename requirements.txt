@@ -1,0 +1,13 @@
+NextTrain.py requirements
+San Akdag
+2021
+Numerated Coding Challenge
+
+Please use python3 version 3.9.5
+
+and ensure that the following required packages are installed and available:
+	sys, requests, json, datetime, time
+
+(I think requests is the only one that might need to get "pip install"-ed)
+
+Thank you for your consideration
