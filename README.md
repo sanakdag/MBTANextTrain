@@ -7,19 +7,22 @@ Run "python3 NextTrain.py help" to display a helpful printout
 Run "python3 NextTrain.py" to use the program in interactive mode
 
 In interactive mode the program will prompt you to:
-	1. Select an MBTA route
-	2. Select a stop along the previously-selected MBTA route
-	3. (if the previously-selected stop is not a terminus) Select a direction 
-	   of travel... South/West/Outbound or North/East/Inbound 
-	4. Return to Step 1 (above) or exit the program
 
-In command-line mode you can get the prediction for your desired route/stop/
-direction if you already know the name of both and your desired direhection in 
-advance. The names one uses must match route names and station names exactly 
+1. Select an MBTA route
+2. Select a stop along the previously-selected MBTA route
+3. Select a direction of travel (if the stop is not a terminus)... 
+5. Return to Step 1 (above) or exit the program
+
+The directions are South/West/Outbound or North/East/Inbound 
+
+In command-line mode, one can get a prediction for their desired route/stop/
+direction if all three are known in advance. 
+The names one uses must match route names and station names exactly 
 as described in the respective attributes objects. Any spaces in the name
 must be replaced with underscores in order to keep the number of command
-line arguments consistent. See the help menu for more information  
+line arguments consistent. See the help menu for more information.
 
+Run "python3 NextTrain.py Red_Line Park_Street 0" 
 
 I have also implemented an automation test that (eventually) checks all of the
 possible route/stop/direction combinations to ensure that no accepted input  
