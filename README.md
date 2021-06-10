@@ -13,6 +13,7 @@ In interactive mode the program will prompt you to:
 3. Select a direction of travel (if the stop is not a terminus)... 
 
 ... it then prints the predicted departure time of the next train and will prompt you to...
+
 4. Return to Step 1 (above) or exit the program
 
 The directions are South/West/Outbound or North/East/Inbound 
