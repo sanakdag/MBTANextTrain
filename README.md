@@ -4,9 +4,8 @@ Numerated Coding Challenge
 
 Run "python3 NextTrain.py help" to display a helpful printout
 
-Run "python3 NextTrain.py" to use the program in interactive mode
-
-In interactive mode the program will prompt you to:
+Interactive mode:
+The program will prompt you to...
 
 1. Select an MBTA route
 2. Select a stop along the previously-selected MBTA route
@@ -16,14 +15,21 @@ In interactive mode the program will prompt you to:
 
 4. Return to Step 1 (above) or exit the program
 
-The directions are South/West/Outbound or North/East/Inbound 
+Run "python3 NextTrain.py" to use the program in interactive mode
 
-In command-line mode, one can get a prediction for their desired route/stop/
-direction if all three are known in advance. 
+Command-line mode:
+If the desired route/stop/direction are known in advance they can be
+supplied as command line arguments to the program. 
 The names one uses must match route names and station names exactly 
 as described in the respective attributes objects. Any spaces in the name
 must be replaced with underscores in order to keep the number of command
 line arguments consistent. 
+The directions are..
+
+  0 - South/West/Outbound 
+  
+  1 - North/East/Inbound 
+
 The direction argument is required in command line mode, but ignored if the stop is a terminus
 See the help menu for more information.
 
